@@ -72,7 +72,7 @@ d3.csv("../data/data.csv")
        .append("circle")
     theCircles
        .append("text")
-    var text = chartGroup.selectAll("text")
+    var text = chartGroup.selectAll("t")
       .data(povertyData)
       .enter()
       .append("text");
